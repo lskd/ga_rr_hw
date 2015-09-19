@@ -34,6 +34,14 @@ end
 puts "hah you're right, it does make a " + (ani_snd + ", ") * (ani_count_snds - 1) + ani_snd + " sound."
 puts "\n"
 
+# Notes on removing the last comma on the amount of times printed out
+# redifining or adding on to a variable
+# part2 = (ani_snd + ", ") * (ani_count_snds -1 )
+# part2 = part2 + ani_snd + .
+# part2 += ani_snd + .
+# ^--- look at that.. a plus equals
+
+
 # This does the 3 sounds as the base assignment
 # Previous to the variable * count for an output line
 #puts "hah you're right, it does make a sound like " + ani_snd + ", " + ani_snd #+ ", " + ani_snd
